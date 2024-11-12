@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.auth-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.sign-in-saved {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.info-box {
+    text-align: center;
+    width: 250px;
+}
+
+.info-box img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.info-box h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.info-box p {
+    margin-bottom: 10px;
+}
+
+.info-box a {
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-section, .flavor-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-links div h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
