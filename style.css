@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbarTopo{
+    position: absolute;
+    top: -5%;
+}
+
+.navbarTopo img{
+    width: 13vw;
+
+}
+
+.navbarCenter{
+    position: absolute;
+    top: 20%;
+}
+
+.navbarCenter h1{
+    color: white;
+    font-size: 40px;
+    margin-top: -5vh;
+    margin-bottom: 5vh;
+}
+
+.navbarBotaoLogin{
+    top: 3%;
+    position: absolute;
+    right: 4%;
+}
+
+.navbarBotaoLogin a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbarBotaoLogin button{
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    width: 5vw;
+    height: 5vh;
+}
+
+
+.navbarImgFundo img{
+    width: 100vw;
+}
+
+.navbarInput{
+    display: flex;
+    justify-content: center;
+}
+.navbarlinkCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.navbarlinkCenter a{
+    color: white;
+}
