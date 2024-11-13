@@ -28,8 +28,8 @@
 .navbarCenter h1{
     color: white;
     font-size: 40px;
-    margin-top: -5vh;
-    margin-bottom: 5vh;
+    margin-top: -4vh;
+    margin-bottom: 3vh;
 }
 
 .navbarBotaoLogin{
@@ -51,7 +51,6 @@
     height: 5vh;
 }
 
-
 .navbarImgFundo img{
     width: 100vw;
 }
@@ -60,9 +59,38 @@
     display: flex;
     justify-content: center;
 }
+
+.navbarInput input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 2vh;
+}
+
+.gps i{
+    position: absolute;
+    color: grey;
+    margin-right: -15vw;
+    margin-top: 1vh;
+}
+
+.endereçoEntrega input::placeholder{
+    padding-left: 1.5vw;
+}
+
 .navbarlinkCenter{
     display: flex;
     justify-content: center;
+}
+
+.inputBotao button{
+    background-color: red;
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+    border: none;
+    margin-left: -2.1vw;
 }
 
 .navbarlinkCenter a{
