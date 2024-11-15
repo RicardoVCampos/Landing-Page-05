@@ -289,7 +289,7 @@
 .imgPlaystore{
     width: 14vw;
     margin-left: 21.7vh;
-    margin-top: -10vh;
+    margin-top: -11.5vh;
 }
 
 .footerRodape{
@@ -316,7 +316,7 @@
     display: flex;
     align-items: center;
     padding-left: 23.5vw;
-    gap: 0.5vw;
+    gap: 0.4vw;
 }
 
 .footerIcone i{
