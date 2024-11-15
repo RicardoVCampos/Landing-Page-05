@@ -219,7 +219,7 @@
 #footerGeral{
     background-color: #191919;
     width: 100%;
-    height: 80vh;
+    height: 93vh;
 }
 
 #footerGeral h3{
@@ -238,17 +238,8 @@
     align-items: center;
     justify-content: center;
     gap: 10vh;
-}
-
-.footerCimaLeft{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 8vh;
-
-    gap: 4vw;
 }
-
 
 .footerText{
     display: flex;
@@ -262,19 +253,72 @@
     font-size: 1.5vh;
 }
 
-.footerCimaRight{
+.footerBaixo{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10vh;
-
-    gap: 5vw;
+    gap: 10vh;
+    margin-top: 8vh;
+    margin-left: 11.5vw;
 }
 
-.footerCimaRight h3{
-    margin-bottom: 1.5vh;
+.footerTextMenor{
+    display: flex;
+    flex-direction: column;
+    margin-top: -25vh;
 }
 
-.footerCimaRight a{
-    margin-bottom: 1vh;
+.footerTextMenor h3{
+    font-size: 2vh;
+}
+.footerTextMenor a{
+    font-size: 1.5vh;
+}
+
+.imgAppStore {
+    display: flex;
+    flex-direction: column;    
+}
+
+.imgApple{
+    width: 11vw;
+    height: 13vh;
+    margin-left: 25vh;
+}
+
+.imgPlaystore{
+    width: 14vw;
+    margin-left: 21.7vh;
+    margin-top: -10vh;
+}
+
+.footerRodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.footerEmblema{
+    margin-left: 9vw;
+    display: flex;
+    align-items: center;
+}
+
+.footerEmblema a{
+    font-size: 1.5vh;
+    padding-left: 0.5vw;
+}
+
+.footerIcone{
+    display: flex;
+    align-items: center;
+    padding-left: 23.5vw;
+    gap: 0.7vw;
+}
+
+.footerIcone i{
+    color: white;
 }
